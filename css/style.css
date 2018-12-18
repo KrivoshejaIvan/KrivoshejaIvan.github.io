@@ -40,7 +40,7 @@ body .container {
     width: 80%;
 }
 body .container header input[type="search"] {
-    width: calc(95% - 49px);
+    width: calc(100% - 49px);
     background-color: transparent;
     border: none;
     font-size: 75px;
@@ -60,11 +60,15 @@ body .container header button img {
 }
 body .container main {
     padding-top: 5%;
+    font-size: 0;
 }
 body .container main .tab {
     display: inline-block;
-    font-size: 0;
-    width: 33%;
+    width: 30%;
+}
+body .container main .tab:nth-child(2) {
+    display: inline-block;
+    margin: 0 5% 0 5%;
 }
 
 body .container main .tab h3 {
@@ -81,7 +85,6 @@ body .container main .tab li  {
     overflow: hidden;
     white-space: nowrap;
     text-overflow: ellipsis;
-    width: 85%;
     margin-bottom: 1%;
     border-radius: 4px;
     background-color: #EAEAEC;
@@ -100,7 +103,7 @@ body .container main .tab li:active  {
 }
 
 body .container main .tab li img {
-    padding: 10px;
+    margin: 10px;
     border-radius: 50%;
     vertical-align: middle;
 }
